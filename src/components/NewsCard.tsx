@@ -1,4 +1,4 @@
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import { NewsItem } from '../lib/types';
 
 
@@ -7,7 +7,7 @@ import xLogo from '@/images/x-logo-b.png';
 import githubLogo from '@/images/default.png';
 
 // 创建一个图片映射对象
-const imageMap: { [key: string]: any } = {
+const imageMap: Record<string, StaticImageData> = {
   'default': defaultImage,
   'x-logo': xLogo,
   'github-logo': githubLogo,

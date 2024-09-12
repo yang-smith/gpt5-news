@@ -6,11 +6,11 @@
 // }
 
 // export default async function ArticlePage({ params }: ArticlePageProps) {
-//   const content = await getArticleContent(params.slug);
-
-//   return (
-//     <div className="container mx-auto px-4 py-8">
-//       <ArticleDisplay content={content} />
-//     </div>
-//   );
-// }
+  // const content = await getArticleContent(params.slug);
+  export default async function ArticlePage(){
+  return (
+    <div className="container mx-auto px-4 py-8">
+      {/* <ArticleDisplay content={content} /> */}
+    </div>
+  );
+}
