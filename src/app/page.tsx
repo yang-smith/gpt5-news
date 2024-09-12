@@ -1,8 +1,36 @@
+import type { Metadata } from 'next'
 import { Suspense } from 'react';
 import Header from '@/components/Header';
 import NewsList from '@/components/NewsList';
 import Footer from '@/components/Footer';
 import Summary from '@/components/Summary';
+
+export const metadata: Metadata = {
+  title: 'GPT-5 News | Latest Updates and Developments',
+  description: 'Explore the cutting-edge world of GPT-5. Get the latest news, features, and insights on OpenAI\'s most advanced language model.',
+  keywords: ['GPT-5', 'AI', 'OpenAI', 'language model', 'artificial intelligence', 'news'],
+  openGraph: {
+    title: 'GPT-5 News | Latest Updates and Developments',
+    description: 'Explore the cutting-edge world of GPT-5. Get the latest news, features, and insights on OpenAI\'s most advanced language model.',
+    url: 'https://your-domain.com',
+    siteName: 'GPT-5 News',
+    images: [
+      {
+        url: 'https://your-domain.com/og-image.jpg',
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'GPT-5 News | Latest Updates and Developments',
+    description: 'Explore the cutting-edge world of GPT-5. Get the latest news, features, and insights on OpenAI\'s most advanced language model.',
+    images: ['https://your-domain.com/twitter-image.jpg'],
+  },
+}
 
 export default function Home() {
   return (
