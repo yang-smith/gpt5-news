@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://your-domain.com/sitemap.xml',
+    sitemap: 'https://gpt5-news.site/sitemap.xml',
   }
 }

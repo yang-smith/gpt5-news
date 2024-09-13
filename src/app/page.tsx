@@ -12,11 +12,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'GPT-5 News | Latest Updates and Developments',
     description: 'Explore the cutting-edge world of GPT-5. Get the latest news, features, and insights on OpenAI\'s most advanced language model.',
-    url: 'https://your-domain.com',
+    url: 'https://gpt5-news.site',
     siteName: 'GPT-5 News',
     images: [
       {
-        url: 'https://your-domain.com/og-image.jpg',
+        url: '/twitter.png',
         width: 1200,
         height: 630,
       },
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'GPT-5 News | Latest Updates and Developments',
     description: 'Explore the cutting-edge world of GPT-5. Get the latest news, features, and insights on OpenAI\'s most advanced language model.',
-    images: ['https://your-domain.com/twitter-image.jpg'],
+    images: ['/twitter.png'],
   },
 }
 
