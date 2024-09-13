@@ -8,23 +8,23 @@ export default function Summary() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <SummaryItem 
           icon={<FaCalendar className="text-pink-400" />}
-          title="Expected Release"
-          content="Late 2024 to early 2025"
+          title="Potential Release"
+          content="Estimates range from December 2024 to Q2 2025, with some predictions as late as December 2025"
         />
         <SummaryItem 
           icon={<FaRocket className="text-pink-400" />}
           title="Key Advancements"
-          content="Enhanced natural language processing, multi-modal capabilities, improved customization"
+          content="Significantly improved reasoning abilities, more human-like communication, enhanced multimodal capabilities"
         />
         <SummaryItem 
           icon={<FaBrain className="text-pink-400" />}
           title="AI Capabilities"
-          content="Advanced reasoning, better reliability, more natural interactions"
+          content="Potential for PhD-level intelligence, major leap in capabilities comparable to GPT-3 to GPT-4 transition"
         />
         <SummaryItem 
           icon={<FaIndustry className="text-pink-400" />}
           title="Potential Impact"
-          content="Transformative changes in human-machine interaction across various domains"
+          content="Transformative changes in AI reasoning and problem-solving across various domains, possibly approaching human-like intelligence"
         />
       </div>
     </div>
