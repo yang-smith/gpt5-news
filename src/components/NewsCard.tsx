@@ -5,12 +5,14 @@ import { NewsItem } from '../lib/types';
 import defaultImage from '@/images/default.png';
 import xLogo from '@/images/x-logo-b.png';
 import githubLogo from '@/images/default.png';
+import post from '@/images/post1.png';
 
 // 创建一个图片映射对象
 const imageMap: Record<string, StaticImageData> = {
   'default': defaultImage,
   'x-logo': xLogo,
   'github-logo': githubLogo,
+  'post': post,
 };
 
 export default function NewsCard({ news }: { news: NewsItem }) {

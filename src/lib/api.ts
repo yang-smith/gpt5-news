@@ -3,22 +3,12 @@ import { NewsItem } from './types';
 // 手动构建的 NewsItem 数组
 const newsItems: NewsItem[] = [
   {
-    id: '1',
-    title: 'Tweet from @apples_jimmy',
-    excerpt: 'Exciting developments in GPT-5! This technology is revolutionizing how we approach problem-solving. #GPT5 #AI',
-    content: '',
-    imageUrl: 'x-logo',
-    url: 'https://x.com/apples_jimmy/status/1833595024543781088',
-    date: '2024-03-11',
-    source: 'X'
-  },
-  {
     id: '2',
-    title: 'GitHub: openai/gpt-5',
-    excerpt: 'OpenAI releases GPT-5, the next generation of language models.',
+    title: 'GitHub: openai',
+    excerpt: 'https://github.com/openai',
     content: '',
     imageUrl: 'default',
-    url: 'https://github.com/openai/gpt-5',
+    url: 'https://github.com/openai',
     date: '2024-03-15',
     source: 'GitHub'
   },
@@ -51,6 +41,32 @@ const newsItems: NewsItem[] = [
     url: 'https://readwrite.com/chatgpt-5-release-date-price-and-what-we-know-so-far/', // 请替换为实际的文章URL
     date: '2024-09-09',
     source: 'Tech Journal'
+  },
+  {
+    id: '6',
+    title: 'OpenAI Introduces o1-preview: A New Series of Reasoning Models',
+    excerpt: 'OpenAI launches o1-preview, a new AI model series designed for enhanced reasoning and problem-solving capabilities in science, coding, and math.',
+    content: `We've developed a new series of AI models designed to spend more time thinking before they respond. They can reason through complex tasks and solve harder problems than previous models in science, coding, and math.
+Today, we are releasing the first of this series in ChatGPT and our API. This is a preview and we expect regular updates and improvements. Alongside this release, we're also including evaluations for the next update, currently in development.
+Some in the AI community are speculating that this new model series could be considered as GPT-4.5.`,
+    imageUrl: 'default', 
+    url: 'https://openai.com/index/introducing-openai-o1-preview/', 
+    date: '2024-09-12',
+    source: 'OpenAI Blog'
+  },
+  {
+    id: '7',
+    title: 'OpenAI research lead for GPT-4o/GPT-5 resigns',
+    excerpt: 'Alexis Conneau, a key figure in OpenAI\'s development of advanced language models, announces his departure to start a new company.',
+    content: `Career update: After an amazing journey at @OpenAI building #Her, I've decided to start a new company.
+
+Alexis Conneau, who has been a crucial part of OpenAI's research team working on advanced language models like GPT-4o and the anticipated GPT-5, has announced his resignation from the company. Conneau, known for his work on the #Her project at OpenAI, shared his decision to embark on a new entrepreneurial venture.
+
+This departure comes at a critical time in AI development, potentially impacting the progress of GPT-5 and related projects at OpenAI. The AI community is closely watching to see how this move might influence the landscape of large language models and AI research.`,
+    imageUrl: 'post', 
+    url: 'https://www.reddit.com/r/singularity/comments/1fe4dz7/openai_research_lead_for_gpt4ogpt5_resigns/', // 这是一个假设的 URL，你需要用实际的 URL 替换它
+    date: '2024-09-10',
+    source: 'X'
   },
   // ... 其他新闻项 ...
 ];
