@@ -6,12 +6,12 @@ import Footer from '@/components/Footer';
 import Summary from '@/components/Summary';
 
 export const metadata: Metadata = {
-  title: 'GPT-5 News | Latest Updates and Developments',
-  description: 'Explore the cutting-edge world of GPT-5. Get the latest news, features, and insights on OpenAI\'s most advanced language model.',
-  keywords: ['GPT-5', 'AI', 'OpenAI', 'language model', 'artificial intelligence', 'news'],
+  title: 'GPT-5 News | Latest Updates, Release Predictions, and Feature Analysis',
+  description: 'Explore the cutting-edge world of GPT-5. Get the latest news, release date predictions, feature analysis, and insights on OpenAI\'s most advanced language model and its potential industry impact.',
+  keywords: ['GPT-5 news', 'AI', 'OpenAI', 'GPT-5 release date predictions', 'GPT-5 feature analysis', 'AI industry impact'],
   openGraph: {
-    title: 'GPT-5 News | Latest Updates and Developments',
-    description: 'Explore the cutting-edge world of GPT-5. Get the latest news, features, and insights on OpenAI\'s most advanced language model.',
+    title: 'GPT-5 News | Latest Updates, Release Predictions, and Feature Analysis',
+    description: 'Explore the cutting-edge world of GPT-5. Get the latest news, release date predictions, feature analysis, and insights on OpenAI\'s most advanced language model and its potential industry impact.',
     url: 'https://gpt5-news.site',
     siteName: 'GPT-5 News',
     images: [
@@ -26,8 +26,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'GPT-5 News | Latest Updates and Developments',
-    description: 'Explore the cutting-edge world of GPT-5. Get the latest news, features, and insights on OpenAI\'s most advanced language model.',
+    title: 'GPT-5 News | Latest Updates, Release Predictions, and Feature Analysis',
+    description: 'Explore the cutting-edge world of GPT-5. Get the latest news, release date predictions, feature analysis, and insights on OpenAI\'s most advanced language model and its potential industry impact.',
     images: ['/twitter.png'],
   },
 }

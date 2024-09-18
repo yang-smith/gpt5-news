@@ -16,11 +16,11 @@ import { Analytics } from "@vercel/analytics/react"
 
 export const metadata: Metadata = {
   title: {
-    default: 'GPT-5 News | Latest Updates and Developments',
+    default: 'GPT-5 News | Latest Updates, Release Predictions, and Feature Analysis',
     template: '%s | GPT-5 News'
   },
-  description: 'Stay informed about the latest GPT-5 news, features, and AI advancements. Expert analysis and insights on OpenAI\'s next-gen language model.',
-  keywords: ['GPT-5', 'AI', 'OpenAI', 'language model', 'artificial intelligence'],
+  description: 'Stay informed about the latest GPT-5 news, release date predictions, and feature analysis. Expert insights on OpenAI\'s next-gen language model and its potential impact across industries.',
+  keywords: ['GPT-5 news', 'AI', 'OpenAI', 'GPT-5 release date predictions', 'GPT-5 feature analysis', 'AI advancements'],
   robots: {
     index: true,
     follow: true,
