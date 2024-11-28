@@ -1,7 +1,6 @@
 import Link from 'next/link'
-import { NavigationMenu, NavigationMenuContent, NavigationMenuItem, NavigationMenuLink, NavigationMenuList, NavigationMenuTrigger } from "@/components/ui/navigation-menu"
-import { cn } from "@/lib/utils"
-import { Button } from '../ui/button'
+import { NavigationMenu, NavigationMenuItem, NavigationMenuLink, NavigationMenuList } from "@/components/ui/navigation-menu"
+
 
 export function Header() {
   return (

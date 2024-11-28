@@ -1,6 +1,5 @@
 import { getAllArticles } from '@/lib/markdown'
 import { ArticleCard } from '@/components/shared/article-card'
-import { PageHeader } from '@/components/shared/page-header'
 import { Separator } from '@/components/ui/separator'
 import { Badge } from '@/components/ui/badge'
 import { Metadata } from 'next'

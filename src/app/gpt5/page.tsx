@@ -39,7 +39,7 @@ export default function GPT5Page() {
         <div className="space-y-2">
           <h1 className="text-3xl font-bold tracking-tight">GPT-5 Overview</h1>
           <p className="text-muted-foreground">
-            Comprehensive information about GPT-5's features, capabilities, and development status.
+            Comprehensive information about GPT-5&apos;s features, capabilities, and development status.
           </p>
         </div>
         <Separator />

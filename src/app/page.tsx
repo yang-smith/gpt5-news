@@ -102,7 +102,7 @@ export default function Home() {
           <CardContent className="flex flex-col items-center justify-center space-y-4 p-12 text-center">
             <h2 className="text-2xl font-bold">Stay Updated</h2>
             <p className="text-muted-foreground max-w-[600px]">
-              Don't miss any updates about GPT-5. Follow our news section for the latest information.
+              Don&apos;t miss any updates about GPT-5. Follow our news section for the latest information.
             </p>
             <Link href="/news">
               <Button size="lg" className="mt-4">
