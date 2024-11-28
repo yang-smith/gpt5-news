@@ -1,38 +1,35 @@
-import type { Metadata } from "next";
-// import localFont from "next/font/local";
-import "./globals.css";
-import { Analytics } from "@vercel/analytics/react"
+import type { Metadata } from 'next'
+import { Inter } from 'next/font/google'
+import './globals.css'
+import { Header } from '@/components/layout/header'
+import { Footer } from '@/components/layout/footer'
 
-// const geistSans = localFont({
-//   src: "./fonts/GeistVF.woff",
-//   variable: "--font-geist-sans",
-//   weight: "100 900",
-// });
-// const geistMono = localFont({
-//   src: "./fonts/GeistMonoVF.woff",
-//   variable: "--font-geist-mono",
-//   weight: "100 900",
-// });
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: {
-    default: 'GPT-5 News | Latest Updates, Release Predictions, and Feature Analysis',
-    template: '%s | GPT-5 News'
+    default: 'GPT-5 News & Updates | Latest Information about ChatGPT-5',
+    template: '%s | GPT-5 News & Updates'
   },
-  description: 'Stay informed about the latest GPT-5 news, release date predictions, and feature analysis. Expert insights on OpenAI\'s next-gen language model and its potential impact across industries.',
-  keywords: ['GPT-5 news', 'AI', 'OpenAI', 'GPT-5 release date predictions', 'GPT-5 feature analysis', 'AI advancements'],
-  robots: {
-    index: true,
-    follow: true,
-    googleBot: {
-      index: true,
-      follow: true,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
+  description: 'Stay updated with the latest GPT-5 news, release date information, and ChatGPT-5 development updates. Comprehensive coverage of OpenAI\'s next-generation language model.',
+  keywords: ['ChatGPT 5', 'GPT-5', 'GPT5 news', 'GPT 5 release date', 'when will GPT 5 come out', 'ChatGPT5'],
+  openGraph: {
+    title: 'GPT-5 News & Updates',
+    description: 'Latest information about ChatGPT-5 development and release updates',
+    url: 'https://gpt5-news.site/',
+    siteName: 'GPT-5 Updates',
+    locale: 'en_US',
+    type: 'website',
   },
-};
+  twitter: {
+    card: 'summary_large_image',
+    title: 'GPT-5 News & Updates',
+    description: 'Latest information about ChatGPT-5 development and release updates',
+  },
+  alternates: {
+    canonical: 'https://gpt5-news.site/',
+  }
+}
 
 export default function RootLayout({
   children,
@@ -41,12 +38,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8638022674571300"
-          crossOrigin="anonymous"></script>
-      </head>
-      <body>{children}</body>
-      <Analytics />
+      <body className="min-h-screen bg-background font-sans antialiased">
+        <div className="relative flex min-h-screen flex-col">
+          <Header />
+          <div className="flex-1 container mx-auto px-4 sm:px-6 lg:px-8">
+            {children}
+          </div>
+          <Footer />
+        </div>
+      </body>
     </html>
-  );
+  )
 }
